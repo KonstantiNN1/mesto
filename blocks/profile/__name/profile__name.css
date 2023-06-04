@@ -1,0 +1,22 @@
+/* Сделать так, чтобы надпись была по центру, а кнопка чуть правкее
+
++ Доработать полную версию */
+.profile__name {
+    margin: 0 0 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+@media screen and (max-width: 879px) {
+    .profile__name {
+        /* max-width: calc(320px - 130px);
+        width: 100%; */
+        margin: 0 auto 14px;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 33px;
+        text-align: center;
+    }
+}

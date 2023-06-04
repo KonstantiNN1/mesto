@@ -1,0 +1,18 @@
+/* Сделать скругленные края 
+
+Убрать проблем между фото и описанием */
+
+.elements__box {
+    border-radius: 10px;
+    margin: 0;
+}
+
+@media screen and (max-width: 879px)  {
+    .elements__box {
+        margin-bottom: 18px;
+    }
+
+    .elements__box:last-child {
+        margin-bottom: 0;
+    }
+}
