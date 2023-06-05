@@ -8,6 +8,7 @@
 }
 
 .elements__like:active {
-    color: #000;
+    background-image: url(../../../assets/photo/like_active.svg);
+    opacity: 1;
 }
 

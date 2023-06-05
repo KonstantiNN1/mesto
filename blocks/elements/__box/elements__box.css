@@ -3,8 +3,9 @@
 Убрать проблем между фото и описанием */
 
 .elements__box {
-    border-radius: 10px;
     margin: 0;
+    border-radius: 10px;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 879px)  {

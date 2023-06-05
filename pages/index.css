@@ -1,5 +1,6 @@
 @import url(..//vendor/normalize.css);
 
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/page/pages.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -22,8 +23,122 @@
 @import url(../blocks/elements/__like/elements__like.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/rotation/rotation.css);
 
-.liked {
+
+.popup {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.popup_opened {
+    display: flex;
+}
+
+
+
+.popup__content {
+    position: relative;
+    background-color: #fff;
+    max-width: 430px;
+    width: 100%;
+    max-height: 330px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 879px) {
+    .popup__content {
+        max-width: 282px;
+        max-height: 332px
+    }
+}
+
+.popup__name {
+    color: #000;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 34px 0 54px 36px
+}
+
+@media screen and (max-width: 879px) {
+    .popup__name {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 25px 0 75px 22px;
+    }
+}
+
+.popup__form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.popup__input {
+    margin: 0 auto 30px;
+    max-width: 358px;
+    width: 100%;
+    height: 27px;
+    border: none;
+    border-bottom: 1px solid #545454;
+}
+
+@media screen and (max-width: 879px) {
+    .popup__input {
+        max-width: 238px; 
+    }
+}
+
+.popup__submit {
+    margin: 18px auto;
+    max-width: 358px;
+    width: 100%;
+    height: 50px;
     background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 879px) {
+    .popup__submit {
+        max-width: 238px;
+        height: 37px;
+        margin-top: 15px;
+    }
+}
+
+.popup__close {
+    margin: 0;
+    background-image: url(../assets/photo/Close.svg);
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 879px) {
+    .popup__close {
+        right: 0px;
+        top: -36px;
+        width: 20px;
+        height: 20px;
+    }
 }
