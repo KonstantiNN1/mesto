@@ -6,8 +6,3 @@
     border: none;
     background-color: #fff;
 }
-
-.elements__like_active {
-    background-image: url(../../../assets/photo/like_active.svg);
-}
-
