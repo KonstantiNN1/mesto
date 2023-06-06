@@ -1,7 +1,7 @@
 # Hi, there is my fourth project in YAndex.Practicum!
 
 ### Here I practiced JavaScript and wrote **my first jscode**!
-### Also in project was used HTML and CSS 
+### Also there was used HTML and CSS in project.
 
 #### You can assess my job at the [link](https://konstantinn1.github.io/mesto/) 
 
