@@ -1,20 +1,15 @@
-.profile__occupation {
+.footer__copyright {
     margin: 0;
+    color: #545454;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-overflow: ellipsis;
-    white-space: wrap;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 879px) {
-    .profile__occupation {
-        margin: 0 auto;
+    .footer__copyright {
         font-size: 14px;
         line-height: 17px;
-        text-align: center;
-        overflow: hidden;
     }
 }
