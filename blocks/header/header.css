@@ -7,6 +7,14 @@
     
 }
 
+@media screen and (max-width: 1039px) {
+    .header {
+        max-width: 880px;
+        min-height: 56px;
+        margin: 28px auto 0;
+    }
+}
+
 @media screen and (max-width: 879px) {
     .header {
         max-width: 320px;

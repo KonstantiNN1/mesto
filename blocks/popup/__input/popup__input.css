@@ -5,6 +5,11 @@
     height: 27px;
     border: none;
     border-bottom: 1px solid rgb(84,84,84, 0.2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    vertical-align: top;
 }
 
 @media screen and (max-width: 879px) {

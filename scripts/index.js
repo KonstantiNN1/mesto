@@ -11,8 +11,7 @@ const occupationInput = document.querySelector("#input-occupation");
 const popupForm = document.querySelector(".popup__form");
 const likeActive = document.querySelectorAll(".elements__like");
 
-nameInput.value = profileName.textContent;
-occupationInput.value = profileOccupation.textContent;
+
 
 openPopupButtonEdit.addEventListener(`click`, function() {
     openPopup(editingPopup);
@@ -33,6 +32,9 @@ popupForm.addEventListener(`submit`, function (event) {
 
 function openPopup(popup) {
     popup.classList.add(`popup_opened`);
+
+    nameInput.value = profileName.textContent;
+    occupationInput.value = profileOccupation.textContent;
 };
 
 function  closePopup(popup) {

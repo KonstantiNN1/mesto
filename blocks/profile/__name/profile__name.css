@@ -8,6 +8,12 @@
     white-space: wrap;
 }
 
+@media screen and (max-width: 1039px) {
+    .profile__name {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
 @media screen and (max-width: 879px) {
     .profile__name {
         margin: 0 auto 14px;
