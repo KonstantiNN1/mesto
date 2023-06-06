@@ -1,6 +1,5 @@
 .profile__general {
     display: flex;
     margin: 0;
-    gap: 18px;
     align-items: baseline;
 }

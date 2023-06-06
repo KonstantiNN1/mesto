@@ -4,7 +4,6 @@
 
 .elements__box {
     margin: 0;
-    border-radius: 10px;
     object-fit: contain;
 }
 

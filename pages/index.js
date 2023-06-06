@@ -38,13 +38,10 @@ function  closePopup(popup) {
     popup.classList.remove('popup_opened');
 };
 
+const likeActive = document.querySelectorAll(".elements__like");
 
-// const blackHeart = document.querySelector('.elements__like');
-// blackHeart.addEventListener('click', function() {
-//     blackHeart.add('elements__like_active')
-// })
-
-// function ChangeColor() {
-//     like = document.querySelector('.elememts__like');
-//     like.classList.add('liked');
-// }
+likeActive.forEach((likeActive) => {
+    likeActive.addEventListener('click', (e) => {
+        e.target.classList.toggle("elements__like_active");
+    });
+});

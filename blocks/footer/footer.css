@@ -14,5 +14,6 @@
         max-width: calc(320px - 38px);
         font-size: 14px;
         line-height: 17px;
+        margin: 52px auto 50px;
     }
 }
