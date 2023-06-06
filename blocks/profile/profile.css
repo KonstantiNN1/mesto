@@ -1,4 +1,4 @@
-.pfofile {
+.profile {
     max-width: calc(100% - 400px);
     width: 100%;
     margin: 40px auto 0;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 879px) {
-    .pfofile {
+    .profile {
         margin-top: 42px;
         flex-direction: column;
         max-width: calc(320px - 38px);
