@@ -1,5 +1,6 @@
 .profile {
-    max-width: calc(100% - 400px);
+    /* max-width: calc(100% - 400px); */
+    max-width: 880px;
     width: 100%;
     margin: 40px auto 0;
     display: flex;
@@ -8,7 +9,7 @@
 
 @media screen and (max-width: 1039px) {
     .profile {
-        max-width: 880px;
+        max-width: 860px;
     }
 }
 

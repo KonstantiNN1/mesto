@@ -1,23 +1,23 @@
-const openPopupButtonEdit = document.querySelector(`.profile__button-edit`);
+const popupButtonEdit = document.querySelector(`.profile__button-edit`);
 const editingPopup = document.querySelector(`.popup`);
-const closePopupButton = document.querySelector(`.popup__close`);
+const closingPopupButton = document.querySelector(`.popup__close`);
 
-const profileName = document.querySelector(".profile__name");
-const nameInput = document.querySelector("#input-name");
+const profileName = document.querySelector(`.profile__name`);
+const nameInput = document.querySelector(`#input-name`);
 
-const profileOccupation = document.querySelector(".profile__occupation");
-const occupationInput = document.querySelector("#input-occupation");
+const profileOccupation = document.querySelector(`.profile__occupation`);
+const occupationInput = document.querySelector(`#input-occupation`);
 
-const popupForm = document.querySelector(".popup__form");
-const likeActive = document.querySelectorAll(".elements__like");
+const popupForm = document.querySelector(`.popup__form`);
+const likeActive = document.querySelectorAll(`.elements__like`);
 
 
 
-openPopupButtonEdit.addEventListener(`click`, function() {
+popupButtonEdit.addEventListener(`click`, function() {
     openPopup(editingPopup);
 });
 
-closePopupButton.addEventListener(`click`, function() {
+closingPopupButton.addEventListener(`click`, function() {
     closePopup(editingPopup);
 });
 

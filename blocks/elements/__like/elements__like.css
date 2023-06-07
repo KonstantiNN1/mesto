@@ -5,4 +5,9 @@
     background-image: url(../../../assets/photo/like.svg);
     border: none;
     background-color: transparent;
+    transition: opacity 0.5s linear;
 }
+
+.elements__like:hover {
+    opacity: 0.5;
+  }

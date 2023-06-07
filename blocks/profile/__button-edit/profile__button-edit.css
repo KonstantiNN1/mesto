@@ -14,5 +14,8 @@
         width: 18px;
         height: 18px;
         margin: 0;
+        position: absolute;
+        right: 18px;
+        top: 8px;
     }
 }

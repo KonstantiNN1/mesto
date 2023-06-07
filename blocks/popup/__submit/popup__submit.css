@@ -13,6 +13,11 @@
     text-align: center;
     font-size: 18px;
     line-height: 22px;
+    transition: opacity 0.5s linear;
+}
+
+.popup__submit:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 879px) {
