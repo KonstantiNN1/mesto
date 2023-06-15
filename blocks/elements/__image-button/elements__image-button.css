@@ -1,0 +1,25 @@
+.elements__image-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* .elements__image-button_zoomed {
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 1s;
+    } */

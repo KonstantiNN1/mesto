@@ -8,7 +8,6 @@
     column-gap: 17px;
 }
 
-
 @media screen and (max-width: 1039px) {
     .elements {
         row-gap: 10px;
