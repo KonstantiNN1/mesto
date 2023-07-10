@@ -27,30 +27,20 @@
       <button class="profile__button-add rotation" type="button"></button>
     </section>
 
-    <section class="elements">
-      <template id="elements__box">
-        <div class="elements__box">
-          <img class="elements__photo">
-          <!-- <button type="button" class="elements__image-button"></button> -->
-          <div class="elements__signature">
-            <h2 class="elements__title"></h2>
-            <button type="button" class="elements__like rotation"></button>
-          </div>
-        </div>
-      </template>
-      </section>
+    <section class="elements"> 
+    </section>
 
-      <section id="popup-edit" class="popup">
-        <div class="popup__content">
-          <form id="popup-form-edit" name="form" class="popup__form">
-            <h2 class="popup__title">Редактировать профиль</h2>
-            <input name="profile__name" id="input-name" type="text" class="popup__input" placeholder="Введите имя" required/>
-            <input name="profile__occupation" id="input-occupation" type="text" class="popup__input" placeholder="Введите профессию" required/>
-            <button type="submit" class="popup__submit rotation">Сохранить</button>
-          </form> 
-          <button id="popup-close-edit" type="button" class="popup__close"></button>
-        </div>
-      </section>
+    <section id="popup-edit" class="popup">
+      <div class="popup__content">
+        <form id="popup-form-edit" name="form" class="popup__form">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <input name="profile__name" id="input-name" type="text" class="popup__input" placeholder="Введите имя" required/>
+          <input name="profile__occupation" id="input-occupation" type="text" class="popup__input" placeholder="Введите профессию" required/>
+          <button type="submit" class="popup__submit rotation">Сохранить</button>
+        </form> 
+        <button id="popup-close-edit" type="button" class="popup__close"></button>
+      </div>
+    </section>
 
 
     <section id="popup-add"class="popup">
@@ -65,18 +55,28 @@
       </div>
     </section>
 
-<!-- <section id="popup-photo" class="popup popup_photo">
-  <div class="popup__content">
-    <img 
-  </div>
-</section> -->
-
-
+    <section id="popup-photo" class="popup popup-photo">
+      <div class="popup__content popup__content_photo">
+        <img class="popup-photo__photo">
+        <p class="popup-photo__discription"></p>
+        <button id="popup-close-photo" type="button" class="popup__close popup__close_photo"></button>
+      </div>
+    </section>
   </main> 
-
   <footer class="footer">
     <p class="footer__copyright"> &copy; 2023 Mesto Russia</p>
   </footer>
+  
+  <template id="elements__box">
+    <div class="elements__box">
+      <img class="elements__photo">
+      <button class="elements__delete-button rotation" type="button"></button>
+      <div class="elements__signature">
+        <h2 class="elements__title"></h2>
+        <button type="button" class="elements__like rotation"></button>
+      </div>
+    </div>
+  </template>
 
   <script src="./scripts/index.js"></script>
   </body>
